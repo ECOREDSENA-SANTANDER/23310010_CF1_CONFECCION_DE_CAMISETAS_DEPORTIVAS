@@ -109,6 +109,8 @@ figcaption
   background-color: #ffff
   border-bottom-left-radius: 40px
   border-bottom-right-radius: 40px
+.bg4
+  background-color: #132A60
 .w-card-icon
   width: min-content
   z-index: 1
@@ -139,7 +141,15 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
-
+.fondo02
+  background-image: url('../assets/curso/temas/t2/img04.png')
+  background-position: bottom !important
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
 .img20
   width: 80%
 /**************************************************************/
@@ -173,5 +183,33 @@ figcaption
   .mb-cus
     margin-bottom: 2em  !important
 
-  
- 
+.tabs-c
+  border-bottom: 0px
+  &__header
+    margin-bottom: 0px
+  &__tab--active
+    font-weight: bold
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #132A60 !important
+  background-color: #EAF8FF
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #132A60 
+.tabs-c__tab 
+  border-bottom: 4px solid #38BDF8
+  background-color: #AFE5FC
+
+.acordion__accion__btn--a 
+  background-color: #132A60 !important
+.acordion .tarjeta--azul
+  background-color: #AFE5FC !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #DDE3EB !important
+.fa-add, .fa-plus 
+  --fa: "\+"
+  color: #ffff
+.fa-minus, .fa-subtract 
+  --fa: "\f068"
+  color: #ffff
+.titulo-segundo:after 
+  border-left-color: #D9F99D
+  background-color: #F0FDD8

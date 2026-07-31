@@ -7,7 +7,7 @@
           span 1
         h1 Análisis y clasificación de las medidas
       
-      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require_src('@/assets/curso/temas/t1/img01.png')})`}"
         )
@@ -18,7 +18,7 @@
             br
       p La correcta interpretación de estas medidas facilita su aplicación en la elaboración de patrones básicos, al establecer relaciones proporcionales entre los distintos segmentos corporales y los requerimientos de ajuste, holgura y funcionalidad que exige la prenda. De este modo, la clasificación técnica de las medidas se convierte en un soporte fundamental para garantizar la coherencia entre la estructura corporal y la solución constructiva propuesta.
 
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
         .col-lg-8.mb-3
           .row.justify-content-start.mb-4(data-aos="zoom-in-left")
             .col-sm-12.col-lg-12
@@ -28,18 +28,18 @@
           p En el ámbito del patronaje, el sistema de medidas corresponde al conjunto organizado de procedimientos utilizados para obtener, registrar y aplicar los datos derivados de la medición corporal. La precisión en este proceso resulta determinante para la construcción de patrones de prendas de vestir, ya que de la calidad del registro depende el nivel de ajuste, adaptación y funcionalidad que la prenda alcance durante su uso.
           .cajon.color-acento-contenido.p-4.mb-4
             p El proceso de medición influye directamente en la forma en que la prenda se adapta al cuerpo, considerando relaciones de proporcionalidad, confort y desempeño funcional, con el propósito de lograr coherencia entre la estructura corporal y la solución constructiva desarrollada.
-        .col-lg-4
+        .col-lg-4.col-8.col-md-6
           img(src='@/assets/curso/temas/t1/img02.png', alt='')
       p De manera general, los sistemas de medidas empleados en patronaje se clasifican en:   
 
       .row.justify-content-start.mb-3(data-aos="zoom-in-left")
-        .col-12.col-lg-4
+        .col-12.col-lg-5
           h4.bg3.py-2.w-card-text2 Sistemas de medidas empleadas en patronaje
     
-      .row.justify-content-center.align-items-center.mb-2
+      .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")
         .col-lg-10
-          .tarjeta--container.row.mb-3
-            .col-md.tarjeta.color-primario.p-5      
+          .tarjeta--container.row.justify-content-center
+            .col-md.tarjeta.color-primario.p-4.col-md-9.col-lg-6
               h3.text-center Sistema inglés
               p Toma como unidad base la pulgada. Se utiliza de forma tradicional en procesos de patronaje desarrollados en contextos productivos de países como Estados Unidos, Inglaterra y Australia.
               .row.justify-content-center.mb-4
@@ -50,7 +50,7 @@
                   figure
                     img(src='@/assets/curso/temas/t1/fig1.svg', alt='Escala fraccionaria entre uno y dos que organiza divisiones sucesivas del segmento en dieciseisavos, octavos, cuartos, medios y tres cuartos para referencia de medidas proporcionales.')    
             
-            .col-md.tarjeta.color-acento-contenido.p-5
+            .col-md.tarjeta.color-acento-contenido.p-4.col-md-9.col-lg-6
               h3.text-center Sistema internacional o métrico decimal
               p Toma como unidad base el metro. Se emplea de manera predominante en la mayoría de los países de América Latina y en diversos entornos industriales y educativos vinculados con la confección.
               .row.justify-content-center.mb-4
@@ -67,7 +67,7 @@
             img.w-card-icon(src="@/assets/curso/temas/t1/ico.svg")
             h3.bg2.py-2.w-card-text Las medidas
       .row.justify-content-center.mb-2
-        .col-lg-5.mb-3
+        .col-lg-5.mb-3.col-md-9
           img(src='@/assets/curso/temas/t1/img03.png', alt='')
         .col-lg-7
           .cajon.color-primario.p-4.mb-3
@@ -79,12 +79,12 @@
         .col-12.col-lg-2
           h4.bg3.py-2.w-card-text2 Medidas corporales
       .row.justify-content-center.align-items-center.mb-3
-        .col-lg-1.mb-3
+        .col-lg-1.mb-3.col-4.col-md-3
           img(src='@/assets/curso/temas/t1/ico2.svg', alt='')
         .col-lg-11
           p Las medidas corporales se obtienen a partir de puntos de referencia anatómicos definidos, considerando criterios antropométricos que permiten ubicar con precisión cada registro. Estas mediciones tienen en cuenta los volúmenes y relieves estructurales del cuerpo, con el fin de garantizar coherencia entre la configuración corporal y los requerimientos de construcción de la prenda. De acuerdo con su función dentro del patronaje, estas medidas se agrupan en tres categorías principales.
 
-      .row.mb-5
+      .row.mb-3(data-aos="fade-left")
         .col-sm-6.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.color-acento-contenido.p-4.h-100
             .row.justify-content-center.mb-3
@@ -112,14 +112,14 @@
             h4.text-center Contornos
             p.mb-0 Las medidas se toman teniendo en cuenta la configuración tridimensional del cuerpo humano; por ejemplo, el contorno completo de la cintura.
 
-      .row.justify-content-center.align-items-center.mb-3
-        .col-lg-6.mb-3
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
+        .col-lg-6.mb-3.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 3. 
             span Clasificación de las medidas corporales femeninas
           figure
             img(src='@/assets/curso/temas/t1/fig3.svg', alt='Ilustración de una figura femenina de frente y de espalda con líneas rojas que indican los principales puntos para la toma de medidas corporales. Incluye circunferencia de la cabeza, hombro, sisa, largo de talle delantero y de espalda, largo y contorno de manga, contornos de busto, cintura, cadera y puño, ancho de espalda, alto de cadera, tiro y largo del pantalón.')
-        .col-lg-6.mb-3
+        .col-lg-6.mb-3.col-md-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 4. 
             span Clasificación de las medidas corporales masculinas
@@ -129,14 +129,14 @@
       p Para fortalecer la comprensión sobre la clasificación y la toma de medidas corporales, se recomienda consultar el video Clasificación de medidas, en el cual se explican los contornos, los largos y los anchos, así como los principales puntos anatómicos de referencia utilizados en el patronaje.
       p Durante la consulta del recurso, identifique la cintura como eje central para organizar la medición del cuerpo y reconozca la forma correcta de tomar medidas en las zonas superior e inferior. También analice la importancia de mantener una postura adecuada, ubicar con precisión los puntos corporales y emplear correctamente la cinta métrica para obtener registros útiles en la elaboración de patrones.
 
-      .row.justify-content-center.align-items-center.mb-4           
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")         
         .col-lg-12
           figure
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/nrZzZ6GeEjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video: clasificación de medidas
 
-      .tarjeta.fondo01.p-3.mb-3
+      .tarjeta.fondo01.p-3.mb-3(data-aos="fade-left")    
         .row.justify-content-around.align-items-center
           .col-lg-11.col-12
             .row.p-2
