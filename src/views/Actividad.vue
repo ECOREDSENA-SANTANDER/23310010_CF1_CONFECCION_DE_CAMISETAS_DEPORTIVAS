@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Maquinaria y sistema de medidas de camisetas deportivas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> verificar la apropiación conceptual y técnica de los contenidos relacionados con sistemas de medidas, textiles, fichas técnicas, maquinaria de confección, insumos, mantenimiento preventivo y bases del patronaje aplicados a camisetas deportivas.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,156 +30,177 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la unidad base del sistema inglés empleada en procesos de patronaje?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'El centímetro como medida lineal utilizada en la mayoría de países de América Latina.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'La pulgada como medida base usada en contextos productivos como Estados Unidos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'El metro como unidad principal para prendas de confección artesanal y técnica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'El milímetro como unidad exclusiva para escalado de moldes industriales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+            '¿Qué instrumento se emplea para registrar longitudes, anchos y contornos del cuerpo?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'La cinta métrica flexible aplicada de forma lineal y perimetral sobre el cuerpo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'La escuadra industrial utilizada para verificar ángulos en piezas de confección.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'El calibrador metálico usado para determinar espesores de materiales textiles.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'La regla rígida empleada para marcar recorridos curvos de la sisa.',
               esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 3,
+          texto:
+            '¿Cómo se toman técnicamente las medidas correspondientes a los anchos del cuerpo?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'De manera perimetral considerando la figura tridimensional completa de cada segmento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'De manera vertical siguiendo los largos y talles principales del cuerpo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'De manera horizontal registrando distancias como el ancho de pecho.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'De manera inclinada según el recorrido natural de hombro y cuello.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 4,
+          texto:
+            '¿Cuál es la finalidad del cuadro de tallas dentro del proceso técnico de patronaje?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Decorar la ficha técnica con datos complementarios sobre tendencias de moda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Organizar y estandarizar la información corporal requerida para desarrollar patrones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir el patronaje base mediante referencias gráficas de uso comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Registrar únicamente los largos de manga y cuello para producción masiva.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 5,
+          texto:
+            '¿Qué concepto corresponde a la relación de equilibrio entre las partes que conforman un todo?',
+          imagen: '@/assets/actividad/imagen05.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Canon, como modelo ideal aplicado de manera histórica a la figura humana.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Escala, como ampliación progresiva de moldes entre una talla y otra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Simetría, como repetición exacta de piezas en ambos lados del cuerpo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Proporción, como correspondencia equilibrada entre las partes de una estructura.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -188,133 +209,176 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cómo se clasifican de manera general las fibras textiles según su origen?',
+          imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'En fibras naturales y fibras químicas con sus respectivas subdivisiones.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto:
+                'En fibras cortas, fibras largas y fibras mezcladas por torsión.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'En fibras de punto, fibras planas y fibras técnicas para alto rendimiento.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'En fibras rígidas, fibras blandas y fibras elásticas de uso industrial.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál de los siguientes materiales corresponde a una fibra natural de origen vegetal procedente de la semilla?',
+          imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
+              texto:
+                'El algodón como fibra empleada ampliamente en estructuras textiles convencionales.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto:
+                'La seda como filamento obtenido de secreciones sedosas naturales.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'El <i>nylon</i> como polímero sintético usado en tejidos técnicos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'El rayón como fibra artificial de base celulósica transformada.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué caracteriza técnicamente al proceso de hilatura?',
+          imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'La organización de patrones sobre la tela para reducir desperdicios de corte.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'La transformación de fibras en hebras continuas para construir hilos y tejidos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'La unión de piezas mediante costuras funcionales en línea de ensamble.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La calibración de puntadas para obtener uniformidad en el pespunte.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué tipo de tejido por trama incluye estructuras como <i>jersey</i>, <i>lacoste</i> e <i>interlock</i>?',
+          imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'El tejido plano con ligamentos fundamentales y derivados de alta rigidez.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'El tejido no entrelazado usado en guatas, entretelas e interlones técnicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El tejido de punto por trama con estructuras sencillas y dobles.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'El tejido mineral reforzado con fibras inorgánicas para usos industriales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es el propósito del aprovechamiento por metro de tela en confección?',
+          imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Sustituir el escalado de moldes por un control directo del ancho textil.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Determinar la elasticidad del material antes del proceso de corte.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Establecer el color definitivo de la tela para la ficha de diseño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Optimizar costos, reducir desperdicios y mejorar la eficiencia de producción.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -323,102 +387,352 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué define de manera más precisa a la ficha técnica en confección?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Un formato visual de promoción comercial para exhibir la prenda terminada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Una guía informal para tomar medidas sin relación con producción industrial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un instructivo exclusivo para mantenimiento de maquinaria en talleres textiles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un documento estructurado que registra especificaciones técnicas de prenda o proceso.',
               esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Cuál tipo de ficha técnica detalla materiales, insumos, medidas y secuencia de ensamble?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La ficha técnica de diseño centrada en temporada y propuesta estética.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La ficha técnica de calidad orientada a criterios de aceptación final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La ficha técnica de maquinaria enfocada en calibración y referencia del equipo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La ficha técnica de producción orientada a especificaciones operativas de fabricación.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 13,
+          texto:
+            '¿Cuál característica exige que la ficha técnica contenga toda la información necesaria para ejecutar el proceso?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'La claridad en la organización del lenguaje para cada área funcional.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La completitud como presencia integral de la información requerida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'La precisión de datos numéricos en medidas y referencias técnicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La trazabilidad para reconstruir el historial del producto elaborado.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
+
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué tipo de máquina industrial se recomienda para acabados de bordes y unión en tejido de punto?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'La plana de una aguja para costuras rectas en tejido plano.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La botonera para fijación de botones sobre prendas terminadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La fileteadora <i>overlock</i> para unión y fileteo simultáneo del material.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La presilladora para refuerzo puntual en zonas de alta tensión.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
+
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál es una técnica general de manejo adecuada para la maquinaria de confección?',
+          imagen: '@/assets/actividad/imagen05.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Jalar el material con ambas manos para acelerar el avance de costura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Conducir la tela suavemente sin empujar, dejando actuar al arrastre mecánico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Mantener alta velocidad constante en curvas y detalles de la prenda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Omitir la revisión previa cuando la máquina ya fue usada ese día.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué efecto puede generar una longitud de puntada demasiado corta durante la costura?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Un fruncido del material por exceso de densidad en la puntada.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Una costura débil con menor resistencia sobre el material ensamblado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Una mejora automática del arrastre en tejidos de alta elasticidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un aumento del calibre real de la aguja durante la operación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 17,
+          texto:
+            '¿Qué accesorio facilita coser cerca del diente de una cremallera en ambos lados?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El prensatelas estándar usado para ensambles generales en tejido plano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La guía magnética para mantener constante el margen de costura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El prensatelas para cremallera diseñado para esa operación específica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El prensatelas para cremallera diseñado para esa operación específica.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 18,
+          texto:
+            '¿Cuál sistema de aguja corresponde de manera estándar a la fileteadora <i>overlock</i>?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El sistema 16 x 231 para máquina plana de cabo delgado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El sistema B27 empleado en fileteadoras de confección industrial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El sistema B63 para máquinas recubridoras tipo collarín.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El sistema 135 x 5 para plana industrial de cabo grueso.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 19,
+          texto:
+            '¿Cuál actividad pertenece al mantenimiento preventivo diario de una máquina de confección?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La limpieza de pelusa y residuos en bobina, dientes y prensatelas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'La revisión técnica especializada por parte de personal externo calificado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La sustitución obligatoria de correas y poleas de transmisión interna.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La calibración electrónica integral del motor y del panel de control.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+
+        {
+          id: 20,
+          texto:
+            '¿Qué se debe verificar al final del trazado del patrón básico de camiseta deportiva?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Que las piezas decorativas reemplacen todas las líneas estructurales del patrón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Que cuello y manga tengan siempre el mismo largo en cualquier talla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Que las costuras coincidan en longitud y curvatura entre todas las piezas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Que el delantero elimine toda diferencia con respecto al patrón trasero.',
               esCorrecta: false,
             },
           ],
@@ -426,81 +740,10 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre maquinaria y patronaje de camisetas deportivas.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

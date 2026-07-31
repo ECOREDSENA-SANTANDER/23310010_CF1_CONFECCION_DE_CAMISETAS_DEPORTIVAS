@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Maquinaria y sistema de medidas de camisetas deportivas'
