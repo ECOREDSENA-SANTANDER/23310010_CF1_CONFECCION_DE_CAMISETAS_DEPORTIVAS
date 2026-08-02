@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="663" height="95" viewBox="0 0 663 95">
+  <g id="Grupo_1177415" data-name="Grupo 1177415" transform="translate(3608 4844)">
+    <rect id="Rectángulo_454869" data-name="Rectángulo 454869" width="663" height="95" rx="20" transform="translate(-3608 -4844)" fill="#eaf8ff"/>
+    <g id="Grupo_1177409" data-name="Grupo 1177409" transform="translate(-4171 -12021)">
+      <text id="Aprovechamiento_" data-name="Aprovechamiento (%) = " transform="translate(626 7234)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="0">Aprovechamiento (%) = </tspan></text>
+      <text id="X_100" data-name="X 100" transform="translate(1122 7234)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="0" y="0">X 100</tspan></text>
+      <text id="Área_útil_utilizada_por_los_patrones" data-name="Área útil utilizada por los patrones" transform="translate(965.711 7221)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-121.884" y="0">Área útil utilizada por los patrones</tspan></text>
+      <text id="Área_total_del_metro_de_la_tela" data-name="Área total del metro de la tela" transform="translate(965.711 7251)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" letter-spacing="0.003em"><tspan x="-104.948" y="0">Área total del metro de la tela</tspan></text>
+      <text id="_" data-name="(" transform="translate(809.711 7244)" fill="#12263f" font-size="55" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.003em"><tspan x="0" y="0">(</tspan></text>
+      <text id="_2" data-name=")" transform="translate(1101.711 7244)" fill="#12263f" font-size="55" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.003em"><tspan x="0" y="0">)</tspan></text>
+      <line id="Línea_3479" data-name="Línea 3479" x2="274" transform="translate(828.211 7230.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

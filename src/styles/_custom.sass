@@ -111,6 +111,10 @@ figcaption
   border-bottom-right-radius: 40px
 .bg4
   background-color: #132A60
+.bg5
+  background-color: #EAF8FF
+.izq
+  text-align: left !important
 .w-card-icon
   width: min-content
   z-index: 1
@@ -168,7 +172,7 @@ figcaption
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
 
-  
+ 
  
   
 //// TABLET MINI 768--------------------------------------
@@ -213,3 +217,100 @@ figcaption
 .titulo-segundo:after 
   border-left-color: #D9F99D
   background-color: #F0FDD8
+
+.fa-angle-right2
+  content: url('../assets/curso/temas/t3/aguja.svg')
+  align-self: flex-start !important
+
+//  Codigo de las tarjetas que se deslizan hacia arriba 
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 0px
+
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  width: 100%
+  bottom: 0
+  padding: 1rem 1.2rem
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 5.2rem))
+  font-weight: 400 !important
+  background: transparent
+
+/* SOLO FILA TITULO */
+.crd_hover_txt .crd_hover_txt--body > div:first-child
+  display: flex !important
+  align-items: center !important
+  flex-wrap: nowrap !important
+  gap: 12px
+  width: 100%
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transform: translateY(0)
+  background-color: #B7BECF !important
+
+  .rot
+    transform: rotate(180deg)
+
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+
+/* OCULTAR PÁRRAFO CUANDO ESTÁ CERRADO */
+.icono-circulo
+  width: 32px
+  height: 32px
+  border-radius: 50%
+  background-color: #132A60
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-shrink: 0
+
+.flecha
+  width: 13px
+  height: 13px
+  border-left: 4px solid #ffff
+  border-top: 4px solid #ffff
+  transform: rotate(45deg)
+  transition: transform 0.4s ease
+
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+
+  &:hover
+    .crd_hover_txt--body
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+      transform: translateY(0)
+
+    .flecha
+      transform: rotate(225deg)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1rem
+    bottom: 0
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc(100% - 2.85rem))
+    background-color: #B7BECF
+    border-radius: 0px
+
+  @media (min-width:1200px) and (max-width:1400px)
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+  @media (max-width: $bp-max-md)
+    .crd_hover_txt--body
+      p
+        font-size: 0.78em
+  @media (min-width: 768px) and (max-width: 1024px)
+    .crd_hover_txt--body
+      p
+        font-size: 1em
