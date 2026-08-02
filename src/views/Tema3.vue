@@ -239,12 +239,12 @@
     p Para profundizar en la caracterización y el comportamiento de los materiales textiles, se recomienda consultar el video Caracterización de los textiles. Este recurso explica las propiedades relacionadas con la estructura, la fluidez, la expansión y la compresión, así como su influencia en la forma, el movimiento, el volumen y el ajuste de las prendas.
     p Durante la consulta del recurso, identifique las diferencias entre los textiles estructurados, fluidos, expansivos y de compresión, y reconozca algunos materiales representativos de cada categoría. Asimismo, analice la función de las entretelas, sus principales tipos y los criterios que deben considerarse para seleccionarlas y aplicarlas de acuerdo con las características del material exterior.
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")         
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/mc1kARHDHrs&t=1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Caracterización de los textiles
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/mc1kARHDHrs?start=1" title="Caracterización de los textiles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video: caracterización de los textiles.
 
 
     separador
