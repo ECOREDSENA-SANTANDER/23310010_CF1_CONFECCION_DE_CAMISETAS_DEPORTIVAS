@@ -60,7 +60,7 @@
             td Ejecuta una operación específica en un ciclo automatizado: ojal, botón, presilla.
             td Operaciones repetitivas de alta precisión.
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-8
         .cajon.color-primario.p-4
           p.mb-0 #[b Nota.] La sigla rpm significa revoluciones por minuto. Esta unidad mide la velocidad de rotación del motor de una máquina de coser e indica cuántos ciclos completos de movimiento realiza durante un minuto.
@@ -119,7 +119,7 @@
             td Puntada invisible, serie 300.
             td Dobladillos invisibles en pantalones de vestir, faldas y chaquetas.
 
-    .tarjeta.fondo04.p-4
+    .tarjeta.fondo04.p-4(data-aos="zoom-in-left")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-6
@@ -218,7 +218,7 @@
       .col-12.col-lg-6
         h4.bg3.py-2.w-card-text2 Técnicas generales para el manejo de maquinaria de confección
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-0(data-aos="zoom-in-left")
       .col-lg-8.mb-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos='fade-right')
           .row.justify-content-center(titulo="Postura y ubicación")
@@ -239,7 +239,7 @@
           .row.justify-content-center(titulo="Verificación previa")
             .col-lg-11.mb-0.mb-md-0
               p Antes de iniciar la operación, revise el enhebrado, el estado de la aguja y los ajustes de tensión y longitud de la puntada.
-      .col-lg-4
+      .col-lg-4.col-8.mb-3.col-md-6
         img(src='@/assets/curso/temas/t5/img02.png', alt='')
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
@@ -413,7 +413,7 @@
       .col-12.col-lg-3
         h4.bg3.py-2.w-card-text2 Agujas según el tipo de punta
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-8.mb-3.h-100
         .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-4
           h5 Tabla 10.
@@ -451,15 +451,15 @@
                 td Bola #[em (ball point)].
                 td BP
                 td Tejidos de punto elásticos y delicados.
-      .col-lg-4.h-100
+      .col-lg-4.h-100.col-8.mb-4.col-md-6
         img(src='@/assets/curso/temas/t5/img04.png', alt='')
 
     .row.justify-content-start.mb-3(data-aos="zoom-in-left")
-      .col-12.col-lg-3
+      .col-12.col-lg-3.col-md-5
         h4.bg3.py-2.w-card-text2 Agujas según el calibre
     
-    .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-4.d-flex.mb-4.mb-lg-0
+    .row.justify-content-center.align-items-stretch.mb-4(data-aos="zoom-in-left")
+      .col-lg-4.d-flex.mb-4.mb-lg-0.col-8.col-md-6
         img.w-100.h-100(
           src='@/assets/curso/temas/t5/img05.png'
           alt='Mujer utilizando una máquina de coser industrial como apoyo visual para la información sobre agujas según el calibre.'
@@ -523,18 +523,16 @@
                 td Materiales muy pesados, como cuero natural y telas técnicas.
           
     .row.justify-content-start.mb-3(data-aos="zoom-in-left")
-      .col-12.col-lg-4
+      .col-12.col-lg-4.col-md-7
         h4.bg3.py-2.w-card-text2 Agujas según el sistema de referencia
-
-    .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-6.d-flex.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-4
-          h5 Tabla 12.
-          span Agujas según el sistema de referencia
-
+    
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-4
+      h5 Tabla 12.
+      span Agujas según el sistema de referencia
+    .row.justify-content-center.mb-4
+      .col-lg-6.mb-4.mb-lg-0
         .tabla-a.color-acento-botones(data-aos="zoom-in-left").mb-4
           table
-            caption Nota. SENA (2025).
             thead
               tr
                 th.izq.bg5 Tipo de máquina
@@ -560,8 +558,127 @@
                 td Fileteadora #[em (overlock)].
                 td B27.
 
-      .col-lg-6
+      .col-lg-6(data-aos="zoom-in-left")
+        .cajon.color-primario.p-5.mb-4
+          p #[b Nota.] Las referencias numéricas son códigos de nomenclatura industrial. Cada código identifica un tipo de aguja de acuerdo con la combinación de sus características físicas, como el diámetro del cabo, la longitud total, la forma de la ranura, el tipo de punta y la máquina para la cual fue diseñada. Por ejemplo, 135 × 5 identifica una familia de agujas de cabo grueso para máquinas planas industriales de alta velocidad, mientras que B27 corresponde a una familia de agujas utilizada en máquinas fileteadoras.
         
+    p La aguja debe reemplazarse cada ocho horas de trabajo continuo o al iniciar una nueva referencia de producción, aunque no presente roturas visibles. Una punta desgastada puede generar perforaciones irregulares, saltos de puntada y deterioro progresivo del tejido.
+
+    separador
+    #t_5_4.titulo-segundo.mb-4(data-aos="zoom-in-left")
+      h2 5.4 Mantenimiento preventivo
+
+
+    .row.justify-content-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-5.mb-3.col-11.mb-2.col-md-8
+        img(src='@/assets/curso/temas/t5/img06.png', alt='')
+      .col-lg-7.mb-3
+        .row.mb-2
+          .col-lg-2.mb-3.d-none.d-lg-block
+            img.img20(src='@/assets/curso/temas/t5/img07.png', alt='')
+          .col-lg-12
+            p El mantenimiento preventivo es el conjunto de acciones programadas que se realizan periódicamente sobre la maquinaria para conservar su funcionamiento, prevenir averías y prolongar su vida útil. A diferencia del mantenimiento correctivo, que se realiza después de producirse una falla, el mantenimiento preventivo reduce los tiempos de parada no planificada y los costos asociados con reparaciones de emergencia.
+
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-4
+      h5 Tabla 13.
+      span Mantenimiento de las máquinas de confección según su frecuencia
+
+    .tabla-a.color-acento-botones(data-aos="zoom-in-left").mb-4
+      table
+        thead
+          tr
+            th.izq.bg5.w-25 Frecuencia
+            th.izq.bg5.w-25 Actividad
+            th.izq.bg5 Descripción
+        tbody
+          tr
+            td Diaria
+            td Limpieza de pelusa y residuos.
+            td Retirar con una brocha los residuos de hilo y pelusa ubicados en la zona de la bobina, los dientes de arrastre y el prensatelas.
+
+          tr
+            td Diaria
+            td Verificación del enhebrado.
+            td Comprobar que el hilo esté correctamente enhebrado, sin nudos ni tensión excesiva.
+
+          tr
+            td Diaria
+            td Revisión de la aguja.
+            td Verificar que la aguja esté recta, correctamente instalada y sin desgaste en la punta.
+
+          tr
+            td Semanal
+            td Lubricación.
+            td Aplicar aceite especial para máquinas de coser en los puntos indicados por el fabricante, evitando el exceso que podría manchar los materiales.
+
+          tr
+            td Semanal
+            td Revisión de tensiones.
+            td Comprobar el equilibrio de las tensiones mediante pruebas de costura realizadas en retales.
+
+          tr
+            td Mensual
+            td Revisión de correas y poleas.
+            td Examinar el estado y la tensión de las correas de transmisión y reemplazar aquellas que presenten desgaste o fisuras.
+
+          tr
+            td Mensual
+            td Limpieza profunda.
+            td Desmontar las piezas accesibles para realizar una limpieza detallada de los mecanismos internos.
+
+          tr
+            td Semestral o anual
+            td Revisión técnica especializada.
+            td Realizar una inspección general por parte de personal técnico especializado, que incluya el ajuste de mecanismos, la revisión eléctrica y la calibración general.
+
+    p(data-aos="zoom-in-left") El mantenimiento preventivo no es responsabilidad exclusiva del área técnica. Quien opera la máquina diariamente constituye el primer eslabón de este proceso, debido a que puede identificar rápidamente cualquier variación en su funcionamiento. Reportar oportunamente anomalías, como ruidos inusuales, cambios en la tensión o saltos frecuentes de puntada, contribuye a mantener la continuidad operativa del proceso productivo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
