@@ -7,8 +7,8 @@
         span 6
       h1 Patronaje básico para el trazo de camiseta deportiva 
 
-    .row.justify-content-center.mb-2
-        .col-lg-5.mb-3.col-md-9
+    .row.justify-content-center.mb-2(data-aos="zoom-in-left")
+        .col-lg-5.mb-3.col-md-9.col-9
           img(src='@/assets/curso/temas/t6/img01.png', alt='')
         .col-lg-7
           .cajon.color-primario.p-4.mb-3
@@ -21,15 +21,15 @@
           img.w-card-icon(src="@/assets/curso/temas/t1/ico.svg")
           h3.bg2.py-2.w-card-text Patrón base superior femenino
 
-    .row.justify-content-centeralign-items-stretch.mb-3
+    .row.justify-content-centeralign-items-stretch.mb-3(data-aos="zoom-in-left")
       .col-lg-4.mb-3.bg6.p-4
         .mb-4
         p La base superior femenina corresponde al patrón que representa la estructura corporal desde la región del cuello hasta la línea de cintura e incorpora las proporciones anatómicas necesarias para su correcta construcción. Este molde constituye el fundamento técnico para desarrollar prendas como blusas, camisetas, chaquetas, chalecos, corpiños y vestidos.
-      .col-lg-4.mb-3
-        img(src="@/assets/curso/temas/t6/img02.png")
+      .col-lg-4.mb-2
+        img.d-none.d-lg-block(src="@/assets/curso/temas/t6/img02.png")
       .col-lg-4.mb-3 
         .row
-          .col-lg-3.mb-3
+          .col-lg-3.mb-3.col-3.col-md-2
             img(src="@/assets/curso/temas/t6/img03.png")
           .col-lg-12
             p La adecuada elaboración de esta base permite establecer una estructura equilibrada y facilita su posterior transformación según los requerimientos de diseño, funcionalidad y uso. Su correcta construcción favorece el ajuste, la estabilidad y la coherencia estructural de la prenda final dentro del proceso de patronaje.
@@ -80,7 +80,7 @@
           img.w-card-icon(src="@/assets/curso/temas/t1/ico.svg")
           h3.bg2.py-2.w-card-text Patrón base superior femenino
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-7.mb-3
         p Para trazar la cabeza de manga se requieren las siguientes medidas: 
         ul.lista-ul--color
@@ -100,7 +100,7 @@
                   | Largo total de la manga.
         .cajon.color-acento-contenido.p-4.mb-4
           p En el trazo de la manga, la cabeza constituye un elemento estructural determinante en la configuración y adaptación de la prenda. Esta sección corresponde a la zona superior que se integra con la sisa del cuerpo y permite la unión entre la manga y el patrón base. Su construcción técnica influye directamente en la movilidad, el ajuste y la estabilidad de la prenda durante su uso.
-      .col-lg-5 
+      .col-lg-5.col-8.col-md-6
         img.w-card-icon(src="@/assets/curso/temas/t6/img06.png")
     p Para profundizar en la relación entre el cuerpo y la construcción de la manga, se recomienda consultar el anexo Aspectos clave en el trazo de la manga. Este recurso explica cómo la anatomía y la ergonomía influyen en el desarrollo del patrón de manga para prendas femeninas.
     p Durante la consulta, identifique los recorridos de sisa, la altura de la cabeza de manga y los puntos de referencia que permiten adaptar la pieza al patrón del cuerpo.
@@ -146,7 +146,7 @@
         h4.bg3.py-2.w-card-text2 Etapas para construir el patrón base superior masculino
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.mb-3
+      .col-lg-6.mb-4.col-8.col-md-6
         img(src='@/assets/curso/temas/t6/img07.png', alt='')
       .col-lg-6
         LineaTiempoD.color-primario
@@ -199,36 +199,260 @@
                       span Descargar
                       i.fas.fa-file-download
 
+    .fondo06
+      .row.justify-content-center.align-items-center.mb-3
+        .col-lg-8.col-10.col-md-8
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 22. 
+            span Base superior masculina
+          img(src='@/assets/curso/temas/t6/fig22.svg', alt='Esquema técnico del patrón base superior masculino, con las piezas delantera y posterior delimitadas por las líneas de centro frente y centro atrás. Incluye el trazado del escote, los hombros, las sisas, los costados y el borde inferior, acompañado por líneas auxiliares, curvas, fórmulas y medidas de construcción.')
+
+    p Para complementar este procedimiento, se recomienda consultar el documento Manual de patronaje básico e interpretación de diseños, específicamente la página 65, en la cual se presenta el trazo del esquema del patrón base masculino clásico.
+
+    .tarjeta.fondo01.p-3.mb-4(data-aos="fade-left")    
+        .row.justify-content-around.align-items-center
+          .col-lg-11.col-12
+            .row.p-2
+              .col-3.col-sm-2.col-lg-1.d-none.d-lg-block
+                img.img20(src='@/assets/curso/temas/t1/hoja.svg', alt='')
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h4.mb-1 PDF: Manual de patronaje básico e interpretación de diseños
+                  .col-sm-auto
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexo 7. Manual de patronaje básico e interpretación de diseños.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+
+    p Por otro lado, para fortalecer la comprensión sobre la preparación técnica de los patrones, se recomienda consultar el video Despiece de planos. Este recurso presenta el procedimiento para separar las piezas de un patrón previamente interpretado, teniendo en cuenta los requerimientos de confección, los márgenes de costura y las características de cada componente de la prenda.
+    p Durante la consulta del recurso, identifique el proceso de calco y despiece de piezas como el delantero, el posterior, la botonadura, el cuello, el pie de cuello, la manga, el puño y el bolsillo. Asimismo, reconozca la importancia de incorporar el sentido del hilo, las líneas de doblez, los piquetes, los márgenes de costura, la cantidad de piezas que deben cortarse y la información necesaria para su correcta identificación.
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+      .col-lg-12
+        figure
+          .video
+            iframe( width="560" height="315" src="https://www.youtube.com/embed/u0eiVcJAldI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video: Despiece de planos
+
+    separador
+    #t_6_2.titulo-segundo.mb-4(data-aos="zoom-in-left")
+      h2 6.2 Patrón de camiseta deportiva
+
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
+        .col-lg-1.mb-3.col-4.col-md-3
+          img(src='@/assets/curso/temas/t6/img08.svg', alt='')
+        .col-lg-11
+          p En esta sección se presentan los planos de patronaje y las indicaciones técnicas para realizar el trazado de los patrones básicos de camisetas deportivas masculina y femenina. Las medidas propuestas corresponden a una talla de referencia y deben ajustarse según la escala de tallas y las especificaciones registradas en la ficha técnica de producción.
+
+    .row.justify-content-start.mb-3(data-aos="zoom-in-left")
+      .col-12.col-lg-4
+        h4.bg3.py-2.w-card-text2 Patrón de camiseta deportiva masculina
+
+    .fondo06
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8.col-11.col-md-8
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 23. 
+            span Trazo del patrón de camiseta deportiva masculina
+          img(src='@/assets/curso/temas/t6/fig23.svg', alt='Plano técnico del patrón de una camiseta deportiva masculina compuesto por el cuerpo, la manga y el cuello. Incluye líneas estructurales, curvas, puntos de construcción y medidas de referencia para realizar el trazado.')
 
 
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-4
+      h5 Tabla 14.
+      span Pasos para el trazado del patrón básico de camiseta deportiva masculina
+
+    .tabla-a.color-acento-botones(data-aos="zoom-in-left").mb-4
+      table
+        thead
+          tr
+            th.izq.bg5(style="width:6%") N.°
+            th.izq.bg5(style="width:18%") Parte del patrón
+            th.izq.bg5(style="width:46%") Paso
+            th.izq.bg5(style="width:30%") Medida de referencia
+        tbody
+          tr
+            td.text-center 1
+            td Cuerpo delantero/trasero
+            td Se traza un rectángulo base con el ancho total de la prenda.
+            td 28,5 cm de ancho.
+
+          tr
+            td.text-center 2
+            td Cuerpo delantero/trasero
+            td Se marca el largo total del cuerpo desde el hombro hasta el bajo.
+            td 72 cm de largo.
+
+          tr
+            td.text-center 3
+            td Escote
+            td Se traza el ancho del escote desde el centro hacia el hombro.
+            td 15 cm de ancho.
+
+          tr
+            td.text-center 4
+            td Escote
+            td Se marca la profundidad del escote descendiendo desde la línea de hombro.
+            td 10 cm de profundidad.
+
+          tr
+            td.text-center 5
+            td Hombro
+            td Se traza la línea de hombro con caída desde el cuello hacia la sisa.
+            td 3 cm de caída.
+
+          tr
+            td.text-center 6
+            td Sisa
+            td Se construye la curva de sisa desde el extremo del hombro hasta la línea de axila.
+            td 24 cm de profundidad.
+
+          tr
+            td.text-center 7
+            td Costado
+            td Se traza la línea lateral recta desde la axila hasta el bajo del cuerpo.
+            td 72 cm menos profundidad de sisa.
+
+          tr
+            td.text-center 8
+            td Ancho de sisa
+            td Se marca el ancho horizontal de la sisa en la línea de axila.
+            td 23,5 cm.
+
+          tr
+            td.text-center 9
+            td Manga
+            td Se traza el rectángulo base de la manga con su ancho y largo.
+            td 18 cm de ancho × 23 cm de largo.
+
+          tr
+            td.text-center 10
+            td Cabeza de manga
+            td Se construye la curva de cabeza de manga desde el punto de hombro.
+            td Curva de 12 cm en cada lado.
+
+          tr
+            td.text-center 11
+            td Cuello (vista o ribete)
+            td Se traza la tira de cuello como rectángulo independiente.
+            td 2,5 cm × 5 cm (doble: 2,5 cm + 2,5 cm).
+
+          tr
+            td.text-center 12
+            td Verificación
+            td Se cotejan todas las piezas entre sí para confirmar que las costuras coinciden en largo y curvaturas.
+            td Todas las piezas.
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-8
+        .cajon.color-secundario.p-4.mb-3
+          p.mb-0 #[b Nota.] Las medidas corresponden a una talla de referencia M y deben ajustarse según la escala de tallas definida en la ficha técnica de producción.
 
 
+    .fondo06(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8.col-11.col-md-8
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 24. 
+            span Trazo del patrón de camiseta deportiva femenina
+          img(src='@/assets/curso/temas/t6/fig24.svg', alt='Plano técnico del patrón de una camiseta deportiva masculina compuesto por el cuerpo, la manga y el cuello. Incluye líneas estructurales, curvas, puntos de construcción y medidas de referencia para realizar el trazado.')
 
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-4
+      h5 Tabla 15.
+      span Pasos para el trazado del patrón básico de camiseta deportiva femenina
 
+    .tabla-a.color-acento-botones(data-aos="zoom-in-left").mb-4
+      table
+        thead
+          tr
+            th.izq.bg5(style="width:6%") N.°
+            th.izq.bg5(style="width:18%") Parte del patrón
+            th.izq.bg5(style="width:46%") Paso
+            th.izq.bg5(style="width:30%") Medida de referencia
+        tbody
+          tr
+            td.text-center 1
+            td Cuerpo delantero y posterior
+            td Se traza el rectángulo base con el ancho total de la prenda desde el centro hasta el costado.
+            td 26 cm de ancho.
 
+          tr
+            td.text-center 2
+            td Cuerpo delantero y posterior
+            td Se marca el largo total del cuerpo desde la línea de hombro hasta el borde inferior.
+            td 23 cm + 19 cm + 18 cm = 60 cm de largo.
 
+          tr
+            td.text-center 3
+            td Hombro posterior
+            td Se traza el ancho del hombro desde el escote hasta el extremo de la sisa.
+            td 10,5 cm de ancho.
 
+          tr
+            td.text-center 4
+            td Hombro delantero
+            td Se traza el ancho del hombro delantero desde el escote hasta el extremo de la sisa.
+            td 8,5 cm de ancho.
 
+          tr
+            td.text-center 5
+            td Escote posterior
+            td Se marca la profundidad del escote posterior descendiendo desde la línea de hombro.
+            td 2 cm de profundidad.
 
+          tr
+            td.text-center 6
+            td Escote delantero
+            td Se marca la profundidad del escote delantero, con una medida mayor que la del posterior.
+            td 9 cm de profundidad.
 
+          tr
+            td.text-center 7
+            td Sisa posterior
+            td Se construye la curva de sisa posterior desde el extremo del hombro hasta la línea de axila.
+            td 2,2 cm de entrada en la curva.
 
+          tr
+            td.text-center 8
+            td Sisa delantera
+            td Se construye la curva de sisa delantera desde el extremo del hombro hasta la línea de axila.
+            td 2,5 cm de entrada en la curva.
 
+          tr
+            td.text-center 9
+            td Talle
+            td Se marca la línea de talle con el ajuste lateral correspondiente a la estructura femenina.
+            td 3 cm de entrada posterior y 3,2 cm de entrada delantera.
 
+          tr
+            td.text-center 10
+            td Cadera
+            td Se traza la línea de cadera con el ancho correspondiente al volumen de la prenda.
+            td 23 cm de ancho.
 
+          tr
+            td.text-center 11
+            td Borde inferior del cuerpo
+            td Se traza la línea inferior con la salida lateral correspondiente en el costado.
+            td 1 cm de salida en cada costado.
 
+          tr
+            td.text-center 12
+            td Vista de escote o ribete
+            td Se construye la vista del escote delantero como una pieza independiente con sus curvas interior y exterior.
+            td 14 cm de largo × 6 cm de ancho, curva interior de 2,5 cm y margen de 1 cm.
 
+          tr
+            td.text-center 13
+            td Verificación del delantero y el posterior
+            td Se cotejan ambas piezas para confirmar que los costados, los hombros y las sisas coincidan en longitud y curvatura.
+            td Todas las piezas.
 
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
+      .col-lg-8
+        .cajon.color-secundario.p-4.mb-3
+          p.mb-0 #[b Nota.] Las medidas corresponden a una talla de referencia M y deben ajustarse según la escala de tallas definida en la ficha técnica de producción. El patrón presenta piezas delantera y posterior independientes debido a las diferencias de ajuste en el escote, la sisa y el talle propias de la estructura femenina.
 
-
-
-
-
-
-
-
-
-
-
+    p El trazado de los patrones de camiseta deportiva permite integrar las medidas corporales, las líneas estructurales y los requerimientos técnicos de la prenda. La correcta construcción y verificación del cuerpo, las mangas, los escotes, las sisas y los costados favorece el ajuste, la movilidad y la funcionalidad del producto antes de iniciar los procesos de corte y confección.
 
 
 
