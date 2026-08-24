@@ -334,7 +334,7 @@
               p #[b Forma y número de piezas:] las prendas conformadas por numerosas piezas pequeñas pueden generar una mayor cantidad de sobrantes.
               p #[b Ancho de la tela:] un mayor ancho puede ofrecer más posibilidades para optimizar la distribución de los patrones.
               p #[b Diseño o estampado:] las telas con dibujos o estampados direccionados limitan la rotación y la ubicación de las piezas.
-              p #[b Técnicas de corte:] el uso de software especializado o de procedimientos manuales puede influir en el rendimiento del material.
+              p #[b Técnicas de corte:] el uso de #[em software] especializado o de procedimientos manuales puede influir en el rendimiento del material.
           
           .row.justify-content-center(titulo="Aplicación de consideraciones adicionales")
             .col-lg-11.mb-4.mb-md-0

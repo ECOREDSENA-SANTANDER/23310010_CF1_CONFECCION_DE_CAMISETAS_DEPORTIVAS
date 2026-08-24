@@ -195,7 +195,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 Anexo 6: Análisis estructura masculina prepatronaje
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexos/Anexo 6. Análisis estructura masculina pre - patronaje.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo 6. Analisis estructura masculina prepatronaje.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
@@ -220,7 +220,7 @@
                   .col.mb-3.mb-sm-0
                     h4.mb-1 PDF: Manual de patronaje básico e interpretación de diseños
                   .col-sm-auto
-                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('/downloads/Anexo 7. Manual de patronaje básico e interpretación de diseños.pdf')" target="_blank")
+                    a.boton.color-acento-boton.texto-blanco(:href="obtenerLink('downloads/Anexos/Anexo 7. Manual de patronaje basico e interpretacion de diseños.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-file-download
 
